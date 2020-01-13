@@ -25,7 +25,11 @@ export const constantRoutes = [
       {
         path: '/echarts',
         component: resolve => require(['@/views/echarts/'], resolve),
-      }
+      },
+      {
+        path: '/upload',
+        component: resolve => require(['@/views/upload/bigFileUpload'], resolve),
+      },
     ]
   }
 ]

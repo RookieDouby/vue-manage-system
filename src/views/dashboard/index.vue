@@ -55,6 +55,7 @@
     </el-tabs>
     <router-link :to="{path:'/collapse'}">Collapse</router-link>
     <router-link :to="{path:'/echarts'}">Echarts</router-link>
+    <router-link :to="{path:'/upload'}">大文件上传</router-link>
 </div>
 </template>
 
